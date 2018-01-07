@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: black;
+}
+
+.contenedor{
+	border:3px solid blue;
+	width: 100%;
+	padding: 20px;
+	display: flex; /*activacion del modulo flexbox*/
+	flex-wrap: nowrap;
+	
+}
+
+.item{
+	width: 100px;
+	height: 100px;
+	background: darkred;
+	text-align: center;
+	margin:auto;
+
+
+}
+
+.item:nth-child(odd){
+	background: #fff;
+}
